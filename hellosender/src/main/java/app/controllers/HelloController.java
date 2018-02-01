@@ -17,7 +17,7 @@ public class HelloController {
 	@RequestMapping("/")
 	public String index() {
 
-		User user = new User("Luiz Augusto Costa ");
+		User user = new User("Person Name ");
 		return myService.message() +  user.getNome() + myService.files();
 	}
 
